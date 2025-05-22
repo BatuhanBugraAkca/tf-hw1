@@ -1,9 +1,9 @@
 # Terraform backend yapılandırması
 terraform {
   backend "s3" {
-    bucket = "batuakca-terraform-backend"   # AWS Console'da elle oluşturduğun bucket
-    key    = "terraform.tfstate"        # State dosyasının ismi
-    region = "us-east-1"                # Bucket’ın bulunduğu AWS bölgesi
+    bucket = "batuakca-terraform-backend"   
+    key    = "terraform.tfstate"        
+    region = "us-east-1"               
   }
 }
 
